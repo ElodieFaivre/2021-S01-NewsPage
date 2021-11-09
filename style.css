@@ -1,3 +1,193 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    background-image: url("./images/nicole.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    flex: 1 1 0;
+    justify-content: space-between;
+}
+    
+.header__logo__picture {
+    width: 40px;
+
+}
+
+
+.header__logo {   
+    color: white;
+    text-align: start;
+    margin: 2rem; 
+    display:flex;
+    align-items:flex-start;
+  
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 30px;
+    margin-left:1rem;
+}
+
+blockquote {
+    background-color: rgba(116, 116, 116, 0.35);
+    color: white;
+    width: 90%;
+    text-align: right;
+    align-self: center;
+    padding:2rem;
+}
+
+.header__title{
+    font-weight:bold;
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+.header__title__italic{
+    font-style:italic;
+    font-weight:400;
+    font-size:1.3rem;
+}
+
+.header__description{
+    line-height:1.5rem;
+    margin-left: 3rem;
+}
+    
+nav {
+    color: rgb(156, 28, 28);
+    padding: 0.2rem;
+    text-align: end;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+    
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+li {
+    padding: 1.5rem;
+    color: #eaeaea;
+    text-shadow: 1px 1px 2px black;
+}
+
+main {
+    flex: 1 1 0;
+    background-color: #F9F9F9;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.main__title {
+
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding:2rem;
+    width:100%;
+   
+}
+
+article {
+    background-color:white;
+    border:1px solid #eaeaea;
+    width:50%;
+    padding:1.8rem;
+}
+
+.article__category {
+    color:white;
+    padding:0.4rem;
+    border-radius:5px;
+    display:inline-block;
+    text-transform:uppercase;
+    margin-bottom:1.8rem;
+    font-weight:bold;
+}
+
+.article__category--News {
+    background-color:#98DC62;
+}
+
+.article__category--Work {
+    background-color:#0766F0;
+}
+
+.article__category--Team {
+    background-color:#DC5E53;
+}
+
+.article__title {
+    font-size:1.5rem;
+    font-weight:bold;
+    line-height:2rem;
+    margin-bottom:1.5rem;
+}
+
+.article__img {
+    width:40px;
+    vertical-align:middle;
+}
+
+.article__author {
+    font-weight:bold;
+    vertical-align:middle;
+    padding-left: 0.5rem;
+}
+
+.article__dated {
+    font-weight: 400;
+    color: #918c8ccc;
+}
+
+.article__info {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.article__text {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height:1.6rem;
+}
+
+.article__complete {
+    color : #007bff;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.article__complete:hover {
+    color : #0056b3;
+}
