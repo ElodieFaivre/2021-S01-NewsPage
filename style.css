@@ -9,26 +9,21 @@ body {
     
 }
 
-html {
-    font-family: 'Roboto', sans-serif;
-}
-
-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-}
-
 header {
     display:flex;
     flex-direction: column;
     background-image: url("./images/nicole.jpg");
     background-size: cover;
+    background-position:center;
     background-repeat: no-repeat;
     margin-left: 0;
     flex: 1 1 0;
     justify-content: space-between;
+    position:fixed;
+    width:50%;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
     
 .header__logo__picture {
@@ -43,7 +38,6 @@ header {
     margin: 2rem; 
     display:flex;
     align-items:flex-start;
-  
 }
 
 h1 {
@@ -90,16 +84,25 @@ nav {
     
 }
 
+
+
 ul {
     display:flex;
     flex-direction: row;
     justify-content:flex-end;
+    margin-bottom: 0.5rem;
 }
 
 li {
     padding: 1.5rem;
     color: #eaeaea;
     text-shadow: 1px 1px 2px black;
+    transition:1s;
+    height: 2rem;
+}
+
+li:hover{
+    font-size:2rem;
 }
 
 main {
@@ -107,6 +110,7 @@ main {
     background-color: #F9F9F9;
     display:flex;
     flex-wrap:wrap;
+    margin-left:50%;
 }
 
 .main__title {
