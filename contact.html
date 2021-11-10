@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>O'clock students news</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="header__logo">
+            <img class="header__logo__picture" src="./images/onews.svg" alt="Le logo du journal de l'école O'Clock">
+            <h1>O'clock students news</h1>
+        </div>
+        <blockquote>
+            <h2 class="header__title">Lastest news <em class="header__title__italic">from our students</em></h2>
+            <p class="header__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam perspiciatis minima sed, voluptatem
+                veritatis veniam delectus ipsa repellat eligendi ratione! Ipsam, amet. Ab autem deserunt voluptatum
+                nostrum. Rem, ex nobis?
+            </p>
+        </blockquote>
+
+        <nav>
+            <ul>
+                <li><a href="">Plan du site</a></li>
+                <li><a href="">Mentions légales</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="main__title">Contact</h2>
+        <div class="main__contact">
+            <form>
+                <div>
+                    Je suis
+                    <label for="male">Un homme</label>
+                    <input type="radio" id="male" value="male" name="gender">
+
+                    <label for="female">Une femme</label>
+                    <input type="radio" id="female" value="female" name="gender">
+                   
+                    <label for="other">Autre</label>
+                    <input type="radio" id="other" value="other" name="gender">
+
+                </div>
+
+                <div>
+                    <label for="firstname">Mon prénom est</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="prénom" class="text-input" required>
+                </div>
+
+                <div>
+                    <label for="lastname">et mon nom,</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="nom" class="text-input" required>
+                </div>
+
+                <div>
+                    <label for="email">Répondez moi via,</label>
+                    <input type="email" placeholder="Adresse e-mail" name="email" id="email" class="text-input">
+                </div>
+
+                <div>
+                    <label for="known">J'ai connu ce site grâce à</label>
+                    <select name="known" id="known">
+                        <option value="">choisir</option>
+                        <option value="connaissance">une connaissance</option>
+                        <option value="internet">internet</option>
+                    </select>
+                    
+                </div>
+
+                <button>
+                    Envoyer
+                </button>
+            </form>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
